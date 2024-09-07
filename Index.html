@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat Landing Page</title>
+    <link rel="stylesheet" type="text/css" href="login.css" />
+</head>
+<body>
+    <div id="landing-page">
+        <form id="landing-form" action="/login" method="post">
+          <div id="landing-logo">
+            <img src="smallchatlogo.png">
+          </div>
+          <div id="landing-descriptions">
+            <h2>Welcome Back!</h2>
+            <p>Login to your account to continue earning passive income effortlessly at your convenience.</p>
+          </div>
+          <div id="landing-form-input">
+            <input id="landing-input" type="text" placeholder="Enter Your Email" required>
+          </div>
+          <div id="landing-form-input">
+            <input id="landing-input-password" type="password" placeholder="Enter Your Password" required>
+            <div id="input-toggle-holder">
+                <button id="input-toggle">H</button>
+            </div>
+          </div>
+          <!--
+          <div class="terms" id="terms">
+            <input type="checkbox" name="check" id="check">
+            <span></span>
+           <span class="tnc" id="tnc"><span>I understand and agree to the <a href="#">Terms and conditions</a>  of use and the  <a href="#">Privacy policy</a>of my account.</span>
+          </div> -->
+          <div id="landing-form-button-input">
+            <button type="submit" id="landing-button">Log In</button>
+          </div>
+          <div id="seperator" class="seperator">
+            <div class="line"></div>
+            <div class="or">or</div>
+              <div class="line"></div>
+          </div>
+          <div id="google-hold">
+            <button type="submit" id="google">Continue with Google</button>
+          </div>
+           
+          <div id="landing-form-links">
+             <span id="span"><input type="checkbox" name="remember" id="remember"><a href="signup.html"> Remember login</a></span>
+             <span id="span"><a href="#">Forgot Password</a></span>
+          </div>
+          <div class="signup">
+            <span>New to Winkywave? <a href="signup.html"><b>Create Account</b></a></span>
+          </div>
+            
+        </form>
+        <div id="footer">
+            <p><span><a href="#">Privacy Policy</a></span>&nbsp|&nbsp<span><a href="#">Terms of Service</a> </span> &nbsp|&nbsp<span><a href="#">Report Issue </a> </span>  </p>
+        </div>
+      </div>
+      <script>
+        const form = document.getElementById('landing-form');
+       /* form.addEventListener('submit', async (event) => {
+           //alert('');
+            event.preventDefault();
+            const username = document.getElementById('landing-input').value;
+            const password = document.getElementById('landing-input-password').value;
+
+              //  try{
+            const response = await fetch('/login', {
+                method: 'POST',
+                headers: {
+                    //'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ username, password })
+            })
+          
+
+            const result = await response.json();
+            
+            if (result.success) {
+                alert(result.message);
+                //window.location.href = 'client-page.html';
+            } else {
+                alert('Signup failed: ' + result.message);
+            } 
+       //}
+         
+      //  const result = await response.json();
+        
+        //catch(error){
+
+           //window.location.href = 'client-page.html';
+          //  console.log(error);
+           // alert('ERRORRRRRRR' + error);
+            
+          
+       // };
+
+    }); */
+    
+    </script>
+    
+</body>
+</html>
