@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.cdnfonts.com/css/google-sans');
+
+
+body, html{
+  font: sans-serif;
+  font-family: 'Product Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+#landing-page{
+    width: 100%;
+    height: 100%;
+    background: #dbe9f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    display: nonee;
+    padding-bottom: 25px;
+    box-sizing: border-box;
+    backgroundd: rgb(255,240,240);
+    position: relative;
+  }
+  #landing-form{
+    width: 40rem;
+    max-width: 85%;
+    heightt: 50rem;
+    heightt: 70%;
+    background: rgb(255,255,255, .4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    gap: .5rem;
+    border-radius: 3px;
+  }
+  #footer{
+      width: 100%;
+      height: 1rem;
+      background: redd;
+      position: absolute;
+      bottom: 2.5rem;
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #footer>p{
+      font-size: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+  #footer>p>span>a{
+
+    text-decoration: none;
+    font-weight: bolderr;
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: .6rem;
+    transition: .5s;
+  }
+  #footer>p>span>a:hover{
+    font-weight: bold;
+    color: #00bfff;
+
+  }
+  #landing-logo{
+    width: 70%;
+    height: 3rem;
+    backgroundd: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  img{
+    height: 70%;
+  }
+  #landing-descriptions{
+    width: 80%;
+    height: 3rem;
+    background: greyy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  h2{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  p{
+    margin: 0;
+    padding: 0;
+    font-size: .9rem;
+    font-weight: 100;
+  }
+  #landing-descriptions>a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: #00bfff;
+    margin: 0;
+    padding: 0;
+    color: linear-gradient(red, blue);
+    
+  }
+  
+  #landing-form-links>span>a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: grey;  
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  #landing-form-input{
+    width: 80%;
+    height: 3rem;
+    backgroundd: grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 0;
+    position: relative;
+  }
+  
+  #input-toggle-holder{
+      height: 2rem;
+      width: 2rem;
+      background: redd;
+      position: absolute;
+      right: 1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 1;
+  }
+  
+  #input-toggle{
+      height: 80%;
+      width: 80%;
+      background: transparent;
+      border: none;
+      
+  }
+  #terms{
+    width: 80%;
+    min-height: .5rem;
+    background: gray;
+  }
+ 
+  #landing-form-button-input{
+    width: 80%;
+    height: 4rem;
+    backgroundd: grey;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-grow: 0;
+  }
+   #landing-form-links{
+    width: 80%;
+    height: 1rem;
+    backgroundd: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 0;
+    font-size: .8rem;
+    color: blue;
+  }
+  
+  #landing-input, #landing-input-password{
+    width: 100%;
+    height: 100%;
+    border: none; z-index: 1;
+    border-bottom: 2px solid #28282b;
+    background: none;
+    font-family: 'Product Sans', sans-serif;
+
+  }
+  .seperator{
+    width: 80%;
+    height: 1.3rem;
+    backgroundd: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .or{
+    min-width: 5px;
+    padding-right: 7px;
+    padding-left: 7px;
+    height: 1.5rem;
+    backgroundd: white;
+    display: flex;
+    align-items: center;
+  }
+  .line{
+    width: 4rem;
+    flex: 1;
+    height: 1px;
+    background: grey;
+  }
+  #landing-input:focus, #landing-input-password:focus{
+outline: none;
+}
+  #landing-button{
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.5rem;
+    color: white;
+    background: #28282b;
+    border-radius: 2rem;
+    border: none;
+    font-weight: bold;
+    font-family: 'Product Sans', sans-serif;
+
+  }
+  #google-hold{
+    width: 80%;
+    height: 2.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-grow: 0;
+  }
+  #google{
+    box-sizing: border-box;
+    width: 100%;
+    height: 2.5rem;
+    color: black;
+    background: transparent;
+    border: 1.5px solid black;
+    border-radius: 2rem;
+    font-weight: bold;
+    font-family: 'Product Sans', sans-serif;
+  }
+  .signup{
+    box-sizing: border-box;
+    width: 80%;
+    height: 3rem;
+    display: flex;
+    align-items: flex-end;
+  
+  }
+  .signup>span>a{
+    color: black;
+  }
+  .create-room{
+    border: 2px solid #28282b;
+    background: transparent;
+    color: white;
+  }
